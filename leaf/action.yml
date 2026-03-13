@@ -1,0 +1,7 @@
+name: 'Shard 1 Leaf'
+description: 'Leaf from shard 1'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "shard-1/leaf"
+      shell: bash
